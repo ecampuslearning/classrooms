@@ -1,16 +1,20 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "eCampus Ubuntu",
+	"name": "eCampus cloudpc",
 	"image": "mcr.microsoft.com/devcontainers/base:focal",
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:1": {},
 		"ghcr.io/devcontainers/features/docker-in-docker:1": {},
+		"ghcr.io/devcontainers/features/docker-from-docker:1": {}
 		"ghcr.io/devcontainers/features/hugo:1": {},
+		"ghcr.io/rjfmachado/devcontainer-features/cloud-native:1": {}
 		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/php:1": {},
+		"ghcr.io/devcontainers/features/git:1": {}
 		"ghcr.io/devcontainers/features/sshd:1": {},
+		lscr.io/linuxserver/webtop:latest
 		"ghcr.io/devcontainers-contrib/features/heroku-cli:1": {},
 		"ghcr.io/devcontainers-contrib/features/jshint:1": {},
 		"ghcr.io/devcontainers-contrib/features/mkdocs:1": {},
